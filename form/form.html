@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav><a href="../index.html"><button class="oper">!</button></a></nav>
+    </header>
+    <main>
+        <div id="first-page">
+            <p> Добро пожаловать в анкету! Заполните её ниже:</p>
+            <div>
+                <input id="surname" placeholder="Фамилия"><br><br>
+                <input id="name" placeholder="Имя"><br><br>
+                <input id="patronymic" placeholder="Отчество"><br>
+            </div><br>
+            <input id="input-color" type="color">
+            <button id="submit-first-button">Submit</button>
+        </div>
+
+        <div id="second-page">
+            <form>
+                <label for="age">Age:</label>
+                <input id="age" type="number">
+                    <br>
+                <label>Are you a student?</label>
+                <label for="yes">Yes</label>
+                <input id="Yes" type="radio">
+                <label for="no">No</label>
+                <input id="No" type="radio">
+                    <br>
+                <label>What're ur favourite subjects?</label>
+                    <br>
+                <label for="math">Math</label>
+                <input id="math" type="checkbox">
+                    <br>
+                <label for="sport">Sport</label>
+                <input id="sport" type="checkbox">
+                    <br>
+                <label for="english">English</label>
+                <input id="english" type="checkbox">
+                    <br>
+                <label for="french">French</label>
+                <input id="french" type="checkbox">
+
+                   
+            </form>
+            <button id="submit-second-button">Submit</button>
+        </div>
+        <div id="third-page">
+            <form>
+                <p>Спасибо за ответы!</p>
+                <p>Заполните данные: </p>
+
+                <label for="name">NAME : </label><br>
+                <input id="name_third" type="text">
+<br><br>
+                <label for="mail">MAIL : </label><br>
+                <input id="mail_third" type="text">
+<br><br>
+                <label for="mess">MESSAGE :</label><br>
+                <input id="mess_third" type="text">
+                                            <br><br>
+                 <button class="third-submit">SUBMIT</button>
+            </form>
+            <label for=""></label>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
