@@ -3,7 +3,7 @@
     height: 50px;
 }
 #first-page{
-display : none;
+display : block;
 }
 #second-page{
     display: none;
